@@ -9,7 +9,6 @@ const Post = ({ post }) => {
     <Card className="deckStyle" style={{ border: "none" }}>
       <Card.Body className="postCover">
         <Card.Title className="text-center p-5">{post.title} </Card.Title>
-        
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">Posted on: {postDate}</small>
